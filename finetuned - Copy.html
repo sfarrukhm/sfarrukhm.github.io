@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fine-Tuning Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 0;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .project {
+      background-color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .project h2 {
+      color: #3498db;
+      margin-bottom: 15px;
+    }
+    .project p {
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    .project ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    .project a {
+      color: #e74c3c;
+      text-decoration: none;
+    }
+    .project a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Fine-Tuning Projects</h1>
+
+    <div class="project">
+      <h2>Fine-Tuning DistilBERT for Medical Reasoning with Domain Adaptation</h2>
+      <p>In this project, I fine-tuned a DistilBERT model (<code>distilbert-base-uncased</code>) on the <strong>medical-o1-reasoning-SFT</strong> dataset to enhance its reasoning capabilities in the medical domain.</p>
+      <h3>What I have learned:</h3>
+      <ul>
+        <li>Fine-tuning a model through Masked Language Modeling for domain adaptation.</li>
+        <li>Understanding and computing cross-entropy and perplexity for language modeling tasks.</li>
+        <li>Concept and benefits of mixed precision training (FP16 vs. FP32).</li>
+      </ul>
+      <a href="https://huggingface.co/sfarrukh/distilbert-med-v2" class="stretched-link">View the Model</a>
+    </div>
+
+    <div class="project">
+      <h2>Fine-Tuning BERT-based Model for Named Entity Recognition (NER)</h2>
+      <p>Fine-tuned a <code>google-bert</code> model for Named Entity Recognition (NER) using the CoNLL-2003 dataset to classify entities like names, organizations, and locations.</p>
+      <h3>What I have learned:</h3>
+      <ul>
+        <li>Understanding the concept of token classification and its distinction from sequence classification.</li>
+        <li>Learning the purpose and functionality of the <code>DataCollatorForTokenClassification</code> module of 🤗 transformers.</li>
+        <li>Handling token alignment and adjusting labels during subword tokenization.</li>
+      </ul>
+    
+      <a href="https://huggingface.co/sfarrukh/bert-conll-ner" class="stretched-link">View the Model</a>
+    </div>
+
+    <div class="project">
+      <h2>Fine-Tuning ModernBERT for Natural Language Inference (NLI)</h2>
+      <p>Fine-tuned the <code>ModernBERT-base</code> model on a subset of the <strong>SetFit/mnli</strong> dataset for Natural Language Inference (NLI), aiming to determine relationships between text inputs (e.g., entailment, contradiction, or neutrality).</p>
+      <h3>What I have learned:</h3>
+      <ul>
+        <li>Through this project, I learned about Natural Language Inference (NLI) and how to prepare data for fine-tuning a model for NLI tasks.</li>
+      </ul>
+      <a href="https://huggingface.co/sfarrukh/modernbert-setfit-nli" class="stretched-link">View the Model</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
