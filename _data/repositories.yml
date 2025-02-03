@@ -5,8 +5,5 @@ repo_description_lines_max: 2
 
 github_repos:
   - sfarrukhm/making_models_small
-  - sfarrukhm/History_llama,
-  - sfarrukhm/genAI 
-  - sfarrukhm/model_finetune 
-  - sfarrukhm/smollm
+
 
