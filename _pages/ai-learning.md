@@ -3,7 +3,7 @@ layout: page
 title: ml-journey
 permalink: ml-journey
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 Explore the key courses, certifications, and knowledge milestones that have shaped my expertise in Machine Learning and Generative AI.
