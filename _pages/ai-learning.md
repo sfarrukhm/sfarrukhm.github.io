@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ml-journey
+title: ML-Journey
 permalink: ml-journey
 nav: true
 nav_order: 4
