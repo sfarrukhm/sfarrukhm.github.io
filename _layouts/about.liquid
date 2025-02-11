@@ -33,8 +33,25 @@ layout: default
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="contact">
+            <ul class="social-links">
+              {% for item in page.profile.more_info %}
+                <li>
+                  <a href="{{ item.url }}" target="_blank">
+                    {% if item.icon %}
+                      <i class="{{ item.icon }}"></i>
+                    {% elsif item.icon_img %}
+                      <img src="{{ item.icon_img }}" alt="{{ item.name }}" width="20" height="20">
+                    {% endif %}
+                    {{ item.name }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
         {% endif %}
+        
+        
       </div>
     {% endif %}
 
