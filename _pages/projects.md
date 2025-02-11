@@ -76,7 +76,7 @@ nav_order: 4
       <p>
         Fine-tuned DistilBERT on the medical-o1-reasoning-SFT dataset to enhance reasoning capabilities in the medical domain.
       </p>
-      <a href="[LINK]" class="btn">View Model →</a>
+      <a href="https://huggingface.co/sfarrukhm/distilbert-med-v2" class="btn">View Model →</a>
     </div>
 
     <!-- Project 2 -->
@@ -85,7 +85,7 @@ nav_order: 4
       <p>
         Fine-tuned a BERT model on the CoNLL-2003 dataset for Named Entity Recognition (NER), classifying entities like names, organizations, and locations.
       </p>
-      <a href="[LINK]" class="btn">View Model →</a>
+      <a href="https://huggingface.co/sfarrukhm/bert-conll-ner" class="btn">View Model →</a>
     </div>
 
     <!-- Project 3 -->
@@ -94,7 +94,7 @@ nav_order: 4
       <p>
         Fine-tuned ModernBERT on a subset of the SetFit/mnli dataset for Natural Language Inference (NLI), determining relationships between text inputs (e.g., entailment, contradiction, or neutrality).
       </p>
-      <a href="[LINK]" class="btn">View Model →</a>
+      <a href="https://huggingface.co/sfarrukhm/modernbert-setfit-nli" class="btn">View Model →</a>
     </div>
   </div>
 </body>
