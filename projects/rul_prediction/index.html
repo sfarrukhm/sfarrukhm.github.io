@@ -3,7 +3,7 @@
     <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>About - SM Farrukh</title>
+        <title>RUL Inference Engine - SM Farrukh</title>
         
         
         <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/favicon_io/apple-touch-icon.png">
@@ -175,7 +175,7 @@
             
             <nav class="hidden md:flex flex-wrap justify-center items-center gap-4 md:gap-6">
                 
-                <a href="http://localhost:1313/about/about/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">About</a>
+                <a href="http://localhost:1313/about/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">About</a>
                 
                 <a href="http://localhost:1313/projects/" class="inline-block text-lg text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 ">Projects</a>
                 
@@ -210,7 +210,7 @@
             </div>
             <nav class="flex flex-col p-6 space-y-4">
                 
-                <a href="http://localhost:1313/about/about/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>About</a>
+                <a href="http://localhost:1313/about/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>About</a>
                 
                 <a href="http://localhost:1313/projects/" class="text-xl text-text-secondary-light dark:text-text-secondary-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-300 " data-menu-link>Projects</a>
                 
@@ -357,12 +357,30 @@
             
 <div class="w-1/2 mx-auto py-12">
     <div class="max-w-3xl mx-auto p-8 border border-border-primary-light dark:border-border-primary-dark rounded-2xl bg-neutral-50 dark:bg-neutral-800">
-        <h1 class="text-4xl font-bold mb-4 text-text-primary-light dark:text-text-primary-dark">About</h1>
+        <h1 class="text-4xl font-bold mb-4 text-text-primary-light dark:text-text-primary-dark">RUL Inference Engine</h1>
         
-        
-        <div class="prose prose-invert max-w-none">
-            <p>Hi! I&rsquo;m Sayyed M. Farrukh, an AI Developer&hellip;</p>
+            <div class="flex items-center gap-4 mb-8 text-text-secondary-light dark:text-text-secondary-dark">
+                <time datetime="0001-01-01">January 1, 0001</time>
+                <div class="flex gap-2">
+                    
+                    <span class="px-2 py-1 bg-bg-primary-light dark:bg-bg-tertiary-dark rounded-md text-xs font-medium text-text-secondary-light dark:text-text-secondary-dark">predictive-maintenance</span>
+                    
+                    <span class="px-2 py-1 bg-bg-primary-light dark:bg-bg-tertiary-dark rounded-md text-xs font-medium text-text-secondary-light dark:text-text-secondary-dark">remaining-Useful-life</span>
+                    
+                </div>
+            </div>
 
+        
+
+        <div class="prose prose-invert max-w-none">
+            <h1 id="rul-inference-engine-is-this">RUL Inference Engine is this</h1>
+<p>A microservice-based system for predicting the <strong>Remaining Useful Life (RUL)</strong> of aircraft engines using sensor time-series data from the NASA C-MAPSS dataset. Built with <strong>FastAPI</strong> (inference backend) and <strong>Streamlit</strong> (interactive UI).</p>
+<hr>
+<h2 id="-running-the-project">🚀 Running the Project</h2>
+<p><strong>Start the inference service:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd app/
+</span></span><span style="display:flex;"><span>uvicorn main:app --reload
+</span></span></code></pre></div>
         </div>
     </div>
 </div>
