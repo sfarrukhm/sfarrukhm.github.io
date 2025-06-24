@@ -2,18 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sfarrukhm.github.io/notebooks/1_kaggle_notebook_kmeans/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/projects/1_rul_prediction/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/projects/2_calories_prediction/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/projects/3_modern_bert_nli/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/projects/4_bert_ner/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/projects/3_amazon_listing_agent/</loc>
+  </url><url>
     <loc>https://sfarrukhm.github.io/about/</loc>
     <lastmod>2025-06-23T13:09:30+05:00</lastmod>
   </url><url>
     <loc>https://sfarrukhm.github.io/</loc>
     <lastmod>2025-06-23T13:09:30+05:00</lastmod>
   </url><url>
+    <loc>https://sfarrukhm.github.io/notebooks/</loc>
+    <lastmod>2023-06-23T13:33:21+05:00</lastmod>
+  </url><url>
     <loc>https://sfarrukhm.github.io/projects/</loc>
     <lastmod>2023-06-23T13:33:21+05:00</lastmod>
   </url><url>
     <loc>https://sfarrukhm.github.io/tags/agentic-ai/</loc>
-  </url><url>
-    <loc>https://sfarrukhm.github.io/projects/3_amazon_listing_agent/</loc>
   </url><url>
     <loc>https://sfarrukhm.github.io/tags/caloreis-burnt-prediction/</loc>
   </url><url>
@@ -29,16 +42,20 @@
   </url><url>
     <loc>https://sfarrukhm.github.io/tags/kaggle/</loc>
   </url><url>
-    <loc>https://sfarrukhm.github.io/projects/4_kaggle_notebook_kmeans/</loc>
+    <loc>https://sfarrukhm.github.io/tags/modernbert/</loc>
   </url><url>
-    <loc>https://sfarrukhm.github.io/projects/2_calories_prediction/</loc>
+    <loc>https://sfarrukhm.github.io/tags/named-entity-recognition/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/tags/nli/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/tags/nlp/</loc>
   </url><url>
     <loc>https://sfarrukhm.github.io/tags/predictive-maintenance/</loc>
   </url><url>
     <loc>https://sfarrukhm.github.io/tags/remaining-useful-life/</loc>
   </url><url>
-    <loc>https://sfarrukhm.github.io/projects/1_rul_prediction/</loc>
-  </url><url>
     <loc>https://sfarrukhm.github.io/tags/</loc>
+  </url><url>
+    <loc>https://sfarrukhm.github.io/tags/transformers/</loc>
   </url>
 </urlset>

@@ -9,24 +9,17 @@
     <lastBuildDate>Mon, 23 Jun 2025 13:09:30 +0500</lastBuildDate>
     <atom:link href="https://sfarrukhm.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>https://sfarrukhm.github.io/about/</link>
-      <pubDate>Mon, 23 Jun 2025 13:09:30 +0500</pubDate>
-      <guid>https://sfarrukhm.github.io/about/</guid>
-      <description>&lt;p&gt;Hi, I am Sayyed Muhammad Farrukh Mehmood. I have a background in mechanical engineering and became interested in AI during my master’s studies, where I focused on machine learning and deep learning. Since then, I have dedicated myself to this field—actively learning and building projects to strengthen my skills. I have worked on various projects in data science, ML/DL, natural language processing, and model fine-tuning. I also stay active on Kaggle to keep improving through hands-on practice. &lt;strong&gt;Always a learner&lt;/strong&gt;, I enjoy exploring new ideas and growing in this fast-moving area.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Amazon Product Listing Optimizer</title>
-      <link>https://sfarrukhm.github.io/projects/3_amazon_listing_agent/</link>
+      <title>KMeans Clustering-Based Feature Engineering</title>
+      <link>https://sfarrukhm.github.io/notebooks/1_kaggle_notebook_kmeans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sfarrukhm.github.io/projects/3_amazon_listing_agent/</guid>
+      <guid>https://sfarrukhm.github.io/notebooks/1_kaggle_notebook_kmeans/</guid>
       <description></description>
     </item>
     <item>
-      <title>KMeans Clustering-Based Feature Engineering</title>
-      <link>https://sfarrukhm.github.io/projects/4_kaggle_notebook_kmeans/</link>
+      <title>RUL Inference Engine</title>
+      <link>https://sfarrukhm.github.io/projects/1_rul_prediction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sfarrukhm.github.io/projects/4_kaggle_notebook_kmeans/</guid>
+      <guid>https://sfarrukhm.github.io/projects/1_rul_prediction/</guid>
       <description></description>
     </item>
     <item>
@@ -37,11 +30,32 @@
       <description></description>
     </item>
     <item>
-      <title>RUL Inference Engine</title>
-      <link>https://sfarrukhm.github.io/projects/1_rul_prediction/</link>
+      <title>ModernBERT for Natural Language Inference (NLI)</title>
+      <link>https://sfarrukhm.github.io/projects/3_modern_bert_nli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sfarrukhm.github.io/projects/1_rul_prediction/</guid>
+      <guid>https://sfarrukhm.github.io/projects/3_modern_bert_nli/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>BERT for Named Entity Recognition (NER)</title>
+      <link>https://sfarrukhm.github.io/projects/4_bert_ner/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sfarrukhm.github.io/projects/4_bert_ner/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon Product Listing Optimizer</title>
+      <link>https://sfarrukhm.github.io/projects/3_amazon_listing_agent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sfarrukhm.github.io/projects/3_amazon_listing_agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>https://sfarrukhm.github.io/about/</link>
+      <pubDate>Mon, 23 Jun 2025 13:09:30 +0500</pubDate>
+      <guid>https://sfarrukhm.github.io/about/</guid>
+      <description>&lt;p&gt;Hi, I am Sayyed Muhammad Farrukh Mehmood. I have a background in mechanical engineering and became interested in AI during my master’s studies, where I focused on machine learning and deep learning. Since then, I have dedicated myself to this field—actively learning and building projects to strengthen my skills. I have worked on various projects in data science, ML/DL, natural language processing, and model fine-tuning. I also stay active on Kaggle to keep improving through hands-on practice. &lt;strong&gt;Always a learner&lt;/strong&gt;, I enjoy exploring new ideas and growing in this fast-moving area.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
