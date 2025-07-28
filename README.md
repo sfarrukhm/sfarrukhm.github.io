@@ -21,5 +21,5 @@ A responsive, modern portfolio website built with **React** and **TailwindCSS**,
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/[your-username]/ml-portfolio.git
-   cd ml-portfolio
+   git clone https://github.com/sfarrukhm/sfarrukhm.github.io.git
+   cd sfarrukhm.github.io
