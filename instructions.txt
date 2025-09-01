@@ -1,0 +1,6 @@
+1. to run website locally: npm start
+2. blog post:
+  a. install this if not already installed: npm install gray-matter react-markdown remark-gfm; npm install react-router-dom
+  b. copy .md file in blog-posts folder
+  c. npm run build-blog
+  d. npm start

@@ -1,46 +1,49 @@
-// src/components/Blog.js
-import React from 'react';
+import React, { useState } from "react";
+import blogs from "../data/blogs";
 
-const blogPosts = [
-  {
-    title: 'Understanding Transformers in NLP',
-    summary: 'An introduction to transformer models and their applications in natural language processing.',
-    link: '#',
-  },
-  {
-    title: 'Fine-Tuning LLMs with Hugging Face',
-    summary: 'A step-by-step guide to fine-tuning large language models using Hugging Face Transformers.',
-    link: '#',
-  },
-];
+export default function Blog({ isVisible }) {
+  const [selectedBlog, setSelectedBlog] = useState(null);
 
-const Blog = () => {
   return (
-    <section id="blog" className="py-16 bg-white dark:bg-gray-900">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Technical Articles</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {blogPosts.map((post, index) => (
+    <section
+      id="blog"
+      className={`py-20 px-6 transition-opacity duration-700 ${
+        isVisible ? "opacity-100" : "opacity-0"
+      }`}
+    >
+      <h2 className="text-3xl font-bold text-center mb-12">Blog</h2>
+
+      {!selectedBlog ? (
+        <div className="grid gap-6 md:grid-cols-2">
+          {blogs.map((blog) => (
             <div
-              key={index}
-              className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow hover:shadow-md transition"
+              key={blog.id}
+              className="p-6 bg-white dark:bg-gray-800 rounded-xl shadow hover:shadow-lg cursor-pointer transition"
+              onClick={() => setSelectedBlog(blog)}
             >
-              <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
-              <p className="mb-4">{post.summary}</p>
-              <a
-                href={post.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-indigo-600 hover:underline"
-              >
-                Read more
-              </a>
+              <h3 className="text-xl font-semibold mb-2">{blog.title}</h3>
+              <p className="text-sm text-gray-500 mb-4">{blog.date}</p>
+              <p className="text-gray-700 dark:text-gray-300">
+                {blog.summary}
+              </p>
             </div>
           ))}
         </div>
-      </div>
+      ) : (
+        <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 p-6 rounded-xl shadow">
+          <button
+            onClick={() => setSelectedBlog(null)}
+            className="mb-4 text-primary-600 dark:text-primary-400 hover:underline"
+          >
+            ← Back to Blogs
+          </button>
+          <h3 className="text-2xl font-bold mb-2">{selectedBlog.title}</h3>
+          <p className="text-sm text-gray-500 mb-6">{selectedBlog.date}</p>
+          <div className="prose dark:prose-invert">
+            {selectedBlog.content}
+          </div>
+        </div>
+      )}
     </section>
   );
-};
-
-export default Blog;
+}

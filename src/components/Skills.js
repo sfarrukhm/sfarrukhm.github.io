@@ -2,39 +2,38 @@ import React from 'react';
 
 const skillCategories = [
   {
-    title: 'Programming & Data',
-    skills: ['Python', 'NumPy', 'Pandas', 'SQL', 'Apache Spark', 'Dask']
-  },
-  {
-    title: 'Machine Learning & AI',
-    skills: ['Scikit-learn', 'XGBoost', 'LightGBM', 'PyTorch', 'TensorFlow', 'Keras', 'OpenCV']
-  },
-  {
-    title: 'LLMs & NLP',
+    title: 'TinyML & Edge AI',
     skills: [
-      'Hugging Face', 'LangChain', 'LangGraph', 'Sentence Transformers',
-      'Embeddings', 'RAG', 'Vector Databases (FAISS, Chroma, Weaviate)'
+      'TensorFlow Lite Micro',
+      'Model Quantization & Pruning',
+      'Embedded Systems (ESP32, ARM Cortex-M)',
+      'Low-Power AI Deployment'
     ]
   },
   {
-    title: 'Deployment & Optimization',
+    title: 'Machine Learning Foundations',
     skills: [
-      'FastAPI', 'TorchServe', 'ONNX', 'TensorRT', 'TorchScript',
-      'Knowledge Distillation', 'Pruning', 'Quantization'
+      'Python',
+      'NumPy & Pandas',
+      'Scikit-learn',
+      'TensorFlow / PyTorch (basics)'
     ]
   },
   {
-    title: 'MLOps & Experimentation',
+    title: 'Programming & Systems',
     skills: [
-      'Docker', 'Git', 'Linux', 'Weights & Biases', 'MLflow', 'DVC',
-      'CI/CD for ML', 'Kubeflow'
+      'C (CS50 basics in progress)',
+      'Git & GitHub',
+      'Linux',
+      'Microcontroller Development'
     ]
   },
   {
-    title: 'Cloud & Scaling',
+    title: 'Learning in Public',
     skills: [
-      'AWS (SageMaker, EC2, S3)', 'GCP (Vertex AI, BigQuery)', 'Azure ML',
-      'Ray', 'Kubernetes'
+      'Technical Blogging',
+      'Open Source Contributions',
+      'Hands-on Project Building'
     ]
   }
 ];
@@ -50,14 +49,14 @@ const Skills = ({ isVisible }) => {
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <h2 className="text-4xl font-bold text-center mb-6 text-gray-800 dark:text-white">
-          Technical Skills
+          Skills
         </h2>
         <p className="text-center text-gray-600 dark:text-gray-300 mb-12 max-w-3xl mx-auto text-lg">
-          A well-rounded stack for Machine Learning, LLMs, and MLOps
+          The tools and skills I’m building to explore TinyML and edge AI.
         </p>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {skillCategories.map((category, idx) => (
             <div
               key={idx}

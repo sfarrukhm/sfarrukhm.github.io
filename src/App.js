@@ -1,12 +1,11 @@
-// src/App.js
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
-import WhyHire from './components/WhyHire';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Credentials from './components/Credentials';
+// import Blog from "./components/Blog";
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -36,19 +35,28 @@ function App() {
   }, []);
 
   return (
-    <div className={darkMode ? 'dark' : ''}>
-      <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen transition-colors duration-300">
-        <Header darkMode={darkMode} setDarkMode={setDarkMode} />
-        <Hero />
-        <About isVisible={isVisible.about} />
-        <WhyHire isVisible={isVisible.whyHire} />
-        <Skills isVisible={isVisible.skills} />
-        <Projects isVisible={isVisible.projects} />
-        <Credentials isVisible={isVisible.credentials} />
-        <Contact isVisible={isVisible.contact} />
-        <Footer />
+    <Router>
+      <div className={darkMode ? 'dark' : ''}>
+        <div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen transition-colors duration-300">
+          <Header darkMode={darkMode} setDarkMode={setDarkMode} />
+          <Routes>
+            {/* Home Page */}
+            <Route path="/" element={
+              <>
+                <Hero />
+                <About isVisible={isVisible.about} />
+                <Skills isVisible={isVisible.skills} />
+                <Projects isVisible={isVisible.projects} />
+                {/* <Blog isVisible={isVisible.blog} />*/}
+                <Contact isVisible={isVisible.contact} />
+                <Footer />
+              </>
+            } />
+
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
   );
 }
 

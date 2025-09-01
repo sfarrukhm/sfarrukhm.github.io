@@ -11,7 +11,7 @@ const Contact = ({ isVisible }) => {
       <div className="container mx-auto px-4 text-center">
         <h2 className="section-title">Get In Touch</h2>
         <p className="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-          Interested in working together or have an opportunity to discuss? You can reach me via email or connect with me on LinkedIn.
+          You can reach me via email or connect with me on LinkedIn.
         </p>
 
         <div className="space-y-4">

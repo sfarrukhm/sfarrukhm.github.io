@@ -27,7 +27,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Machine Learning Engineer | TinyML Deployment
+            Emerging TinyML Specialist
           </motion.h2>
 
           {/* Description */}
@@ -37,12 +37,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            I build intelligent and efficient AI systems that work in the real
-            world. From fine-tuning large language models to compressing them
-            for edge devices, I focus on making advanced AI practical for
-            resource-constrained environments. My work bridges research and
-            deployment, ensuring models are accurate, fast, and ready for
-            production.
+            I’m building expertise TinyML and edge AI with a mechanical engineering mindset for real-world problem-solving.
           </motion.p>
 
           {/* Social Icons */}
@@ -91,12 +86,14 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
+          {/* Remove this button:
             <a
               href="#contact"
-              className="px-8 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition text-lg font-medium"
+              className="btn-primary inline-block text-center"
             >
               Hire Me
             </a>
+            */}
             <a
               href="/resume.pdf"
               target="_blank"
